@@ -1,6 +1,6 @@
 using MyTestRepo
 using Test
 
-@testset "MyTestRepo.jl" begin
-    # Write your tests here.
-end
+
+A = Taylor([1,2,3])
+@test true
